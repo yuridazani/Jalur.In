@@ -1,7 +1,7 @@
 const CACHE_NAME = 'jalurin-cache-v1';
 const urlsToCache = [
     '/',
-    'login.html',
+    'index.html',
     'dashboard.html',
     'dashboard.js',
     'manifest.json',
@@ -37,4 +37,5 @@ self.addEventListener('fetch', event => {
                 return fetch(event.request);
             })
     );
+
 });
