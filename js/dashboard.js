@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Pengecekan User & Inisialisasi Dasar ---
     const loggedInUser = JSON.parse(sessionStorage.getItem('loggedInUser'));
     if (!loggedInUser) {
-        window.location.href = 'login.html';
+        window.location.href = 'index.html';
         return;
     }
 
@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 localStorage.removeItem('currentShipmentId'); // Jika ada
                 
                 // Redirect ke login
-                window.location.href = 'login.html';
+                window.location.href = 'index.html';
             }
         });
     }
@@ -275,4 +275,5 @@ document.addEventListener('DOMContentLoaded', () => {
         };
         return roleMap[role] || role;
     };
+
 });
