@@ -2,7 +2,7 @@
 
 **Logistik Terpantau, Bisnis Lancar.**
 
-![Jalur.in Login Page](https://i.imgur.com/your-image-url.png) **Jalur.in** adalah sebuah **Progressive Web App (PWA)** yang dirancang untuk membantu Usaha Mikro, Kecil, dan Menengah (UMKM) dalam mengelola dan memantau proses pengiriman logistik mereka. Aplikasi ini menyediakan dashboard intuitif untuk tiga peran utama: **Manajer**, **Supir**, dan **Admin**.
+**Jalur.in** adalah sebuah **Progressive Web App (PWA)** yang dirancang untuk membantu Usaha Mikro, Kecil, dan Menengah (UMKM) dalam mengelola dan memantau proses pengiriman logistik mereka. Aplikasi ini menyediakan dashboard intuitif untuk tiga peran utama: **Manajer**, **Supir**, dan **Admin**.
 
 Versi saat ini adalah **aplikasi frontend murni** yang menggunakan `localStorage` untuk simulasi database, sehingga semua fungsionalitas dapat dicoba langsung di browser tanpa memerlukan backend.
 
